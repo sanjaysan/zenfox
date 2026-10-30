@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an idea for ZenFox
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the problem or the workflow you want to improve.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could ZenFox help?
+      description: Your idea for how it could work. Mockups or examples from other browsers are welcome.
+  - type: input
+    id: firefox-version
+    attributes:
+      label: Firefox version (optional)
+      placeholder: "153.0"
